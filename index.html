@@ -406,7 +406,7 @@
                   class="footer-input"
                   type="email"
                   placeholder="E-mail"
-                  name="email"
+                  name="user-email"
                 />
               </label>
             </div>
@@ -436,6 +436,41 @@
             <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
           </svg>
         </button>
+        <b class="modal-title">Leave your contacts and we will call you back</b>
+        <form class="mpdal-form">
+          <div class="form-field">
+            <label class="modal-label modal-name-label">
+              Name
+              <input type="text" class="modal-input" name="user-name" />
+            </label>
+          </div>
+          <label class="modal-label modal-name-label">
+            Name
+            <input type="text" class="modal-input" name="user-name" />
+          </label>
+          <label class="modal-label">
+            Phone
+            <input type="tel" class="modal-input" name="user-tel" />
+          </label>
+          <label class="modal-label">
+            Email
+            <input type="email" class="modal-input" name="user-email" />
+          </label>
+          <label class="input-text modal-label">
+            Comment
+            <textarea
+              class="modal-textarea"
+              name="user-text"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <label class="modal-checkbox">
+            <input type="checkbox" class="checkbox" name="accept" />
+            I accept the terms and conditions of the
+            <a href="" class="modal-form-link">Privacy Policy</a>
+          </label>
+          <button type="submit" class="modal-btn">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
